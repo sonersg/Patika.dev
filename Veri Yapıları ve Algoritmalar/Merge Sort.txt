@@ -1,0 +1,42 @@
+
+
+
+
+
+Merge Sort Projesi
+
+
+
+
+
+[16,21,11,8,12,22] -> Merge Sort
+
+1-Yukarýdaki dizinin sort türüne göre aþamalarýný yazýnýz.
+2-Big-O gösterimini yazýnýz.
+
+
+
+1- Merge Sort Aþamalarý
+[16,21,11,8,12,22] ilk önce sayý dizisini ikiye böleriz.
+- [16,21,11]     [8,12,22]
+Daha sonra böldüðümüz dizileri bir daha ikiye böleriz.
+- [16,21]   [11]   [8,12]   [22]
+Elde edilen diziler 2 veya daha az eleman sayýsýna ulaþtýðý için bölme iþlemini durduruz.
+Her diziyi kendi içinde sýralarýz.
+- [16,21]   [11]   [8,12]   [22]
+Þimdi ise ikili olarak sýraya uygun bir þekilde diziler birleþtirilir.
+- [11,16,21]   [8,12,22]
+Elde edilen diziler uygun bir þekilde bir kez daha birleþtirilir.
+- [8,11,12,16,21,22]
+Ve dizi sýralý hale gelir.
+
+
+
+2- Big O Notation Gösterimi
+Worst case   : O(n*logn)
+Average case : O(n*logn)
+Best case    : O(n*logn)
+
+
+
+
