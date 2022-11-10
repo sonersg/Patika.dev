@@ -1,0 +1,27 @@
+* {
+    margin: 5;
+    padding: 5;
+}
+
+body {
+    background-color: rgb(231, 199, 156);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2rem;
+  }
+  .color-red {
+    color: red;
+  }
+  .color-rgb {
+    color: rgb(0, 177, 221);
+  }
+
+  .bg-white {
+    background-color: white;
+  }
+  
