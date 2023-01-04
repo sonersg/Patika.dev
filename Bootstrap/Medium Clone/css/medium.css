@@ -1,0 +1,16 @@
+
+
+
+.border-bottom-dark {
+    border-bottom: 1px solid #333;
+}
+.bg-yellow {
+    background-color: rgb(235, 204, 31);
+}
+
+.border-width100 {
+    width: 100%;
+    height: 1px;
+    background-color: #777;
+    margin-top: 30px;
+}
