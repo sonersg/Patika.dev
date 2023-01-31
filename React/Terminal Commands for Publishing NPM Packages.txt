@@ -1,0 +1,14 @@
+// npm install -g create-react-library
+// create-react-library
+// npx create-react-library
+
+// npm login
+// npm publish
+
+// npm version patch -f
+// npm version minor -f
+
+
+
+// npm install "component-name"
+// npm upgrade "component-name"
